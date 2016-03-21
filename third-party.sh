@@ -17,9 +17,9 @@ cd -
 rm libpng.tar.gz
 
 ## libjpeg-turbo ##
-wget "http://jaist.dl.sourceforge.net/project/libjpeg-turbo/1.4.0/libjpeg-turbo-1.4.0.tar.gz" -O "./libjpeg-turbo.tar.gz"
+wget "http://jaist.dl.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz" -O "./libjpeg-turbo.tar.gz"
 tar xvf libjpeg-turbo.tar.gz
-mv -f libjpeg-turbo-1.4.0 ./third-party/libjpeg-turbo
+mv -f libjpeg-turbo-1.4.2 ./third-party/libjpeg-turbo
 cd ./third-party/libjpeg-turbo
 cmake . || (echo ':MUST: need cmake' && exit 1)
 cd -
